@@ -1,0 +1,23 @@
+{
+  "name": "monorepos-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-a": "npm test --prefix ./packages/component-A",
+    "demo": "yarn workspace vue-demo run serve",
+    "lint": "eslint --fix --ext .js,.vue"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

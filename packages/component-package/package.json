@@ -1,0 +1,22 @@
+{
+  "name": "component-package",
+  "version": "1.0.0",
+  "description": "component",
+  "author": "xujianzhen <xujianzhen@dxy.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "echo 'TEST-A'"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "util-package": "1.0.0"
+  }
+}
