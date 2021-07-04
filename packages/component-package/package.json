@@ -1,6 +1,6 @@
 {
   "name": "component-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "component",
   "author": "xujianzhen",
   "homepage": "",
@@ -17,6 +17,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "util-package": "1.0.0"
+    "util-package": "^1.0.1"
   }
 }
