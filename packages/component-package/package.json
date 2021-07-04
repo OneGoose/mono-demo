@@ -2,7 +2,7 @@
   "name": "component-package",
   "version": "1.0.0",
   "description": "component",
-  "author": "xujianzhen <xujianzhen@dxy.cn>",
+  "author": "xujianzhen",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
