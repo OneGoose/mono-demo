@@ -2,7 +2,17 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.0",
+  "version": "independent",
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ],
+      "message": "发包啦",
+      "registry": ""
+    }
+  }
 }
