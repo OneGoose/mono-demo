@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "lerna bootstrap",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-a": "npm test --prefix ./packages/component-A",
     "demo": "yarn workspace vue-demo run serve",
