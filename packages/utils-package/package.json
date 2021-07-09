@@ -11,5 +11,6 @@
     "test": "echo 'TEST-A'"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "eadc95f1e8b8a9e24edd5dc3e4c2398df9344605"
 }
