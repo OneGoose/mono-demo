@@ -1,6 +1,6 @@
 {
   "name": "component-package",
-  "version": "2.0.1",
+  "version": "9.9.9",
   "description": "component",
   "author": "xujianzhen",
   "homepage": "",
@@ -17,7 +17,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "util-package": "^1.0.2"
+    "util-package": "^8.8.8"
   },
   "gitHead": "eadc95f1e8b8a9e24edd5dc3e4c2398df9344605"
 }
